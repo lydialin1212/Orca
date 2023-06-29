@@ -42,13 +42,13 @@ If you change the path of the virtual environment, you need to change the source
 source ~/venv/bin/activate
 pip install --upgrade pip
 pip install gym
-pip install tensorflow==1.14
+pip install tensorflow
 pip install sysv_ipc
 ```
 
 Verify Installation
 ```
-python -c "import tensorflow as tf; tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+python -c "import tensorflow as tf;  print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
 ```
 
 To deactivate venv
