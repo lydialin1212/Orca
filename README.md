@@ -24,8 +24,9 @@ Install Mahimahi (http://mahimahi.mit.edu/#getting)
 
 #### Prerequisites
 
-- Python >= 3.4
-- Tensorflow 1.14.0 
+~~- Python >= 3.4~~
+~~- Tensorflow 1.14.0~~ 
+
 
 ##### Create a virtul environment
 ```
@@ -48,7 +49,7 @@ pip install sysv_ipc
 
 Verify Installation
 ```
-python -c "import tensorflow as tf;  print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+python -c "import tensorflow as tf;  print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 ```
 
 To deactivate venv
