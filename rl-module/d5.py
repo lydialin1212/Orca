@@ -22,7 +22,7 @@ SOFTWARE.
 
 import threading
 import logging
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import sys
 from agent import Agent
 import os
